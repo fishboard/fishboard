@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+
+.navbar-brand {
+  padding-top: 0;
+}
+.navbar-brand .logo {
+    width: 145px;
+}
+
+.navbar-brand .logo img {
+  margin-top:5px;
+  width:48px;
+  padding-right: 8px;
+}
+
+.navbar-brand .logo div {
+  position: absolute;
+  top: 15px;
+  display: inline-block;
+  font-family: Voltaire;
+  font-size:1.6em;
+}
+
+
+.bs-docs-nav {
+  opacity: 0.7;
+  background-color: #434A54; /*#E9573F #434A54;*/
+  color:white;
+}
+
+.bs-docs-nav .container {
+  padding: 0 30px 0 20px;
+}
+
+.bs-docs-nav .navbar-nav > li.active a {
+  background-color: #25272C;
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color:white;
+}
+
+.bs-docs-nav .navbar-nav > li > a:hover,
+.navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #434A54;
+  color:white;
+}
+
+.navbar-brand,
+.bs-docs-nav .navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > .open > a.dropdown-toggle,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #434A54;
+  color:white;
+}
+
+.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a:hover,
+.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
+  color:white;
+}
+
+
+/*SEARCH FORM*/
+#search-form .input-group {
+  padding-top: 10px;
+}
+
+#search-form .input-group-btn .search-btn {
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#search-form .fa-search {
+
+  color:black;
+}
+
+.search-form {
+  height: 28px;
+  border:none;
+  border-radius: 30px 0px 0px 30px;
+    /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+}
+/*to cange only one form and not all give unique class name like  class="search-form" */
+ .search-btn {
+   height: 28px;
+   background-color: white;
+   border:none;
+   border-radius: 0px 30px 30px 0px;
+   cursor:pointer;
+}
