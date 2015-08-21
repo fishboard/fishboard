@@ -13,6 +13,10 @@
   padding-right: 8px;
 }
 
+.navbar-default {
+  border-color: transparent;
+}
+
 .navbar-brand .logo div {
   position: absolute;
   top: 15px;
@@ -23,8 +27,7 @@
 
 
 .bs-docs-nav {
-  opacity: 0.7;
-  background-color: #434A54; /*#E9573F #434A54;*/
+  background-color: rgba(67, 74, 84, 0.7); /*#E9573F #434A54;*/
   color:white;
 }
 

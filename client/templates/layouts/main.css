@@ -2,5 +2,8 @@
 body {
   min-height: 2000px;
   padding-top: 70px;
-  background-color: #f0f2f5;
+  background-image: url('/assets/images/backgrounds/01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
