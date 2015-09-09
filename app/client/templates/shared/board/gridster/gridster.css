@@ -1,0 +1,53 @@
+.gridster * {
+  margin:0;
+  padding:0;
+}
+
+/*/
+/* gridster
+/*/
+
+.gridster ul {
+    min-width: 1140px;
+    list-style-type: none;
+    
+}
+
+.gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+    background-color: rgba(225, 225, 225, 0.6);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;    
+}
+
+.gridster {
+    margin: 0 auto;
+
+    opacity: .8;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs-w {
+    background: #DDD;
+    cursor: pointer;
+}
+
+.gridster .player {
+    background: #BBB;
+}
+
+
+.gridster .preview-holder {
+    border: none!important;
+    background: #FDD!important;
+    background: hsla(45%, 100%, 40%, 0.4)!important;
+}
