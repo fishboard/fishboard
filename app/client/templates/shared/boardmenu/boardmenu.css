@@ -1,0 +1,20 @@
+
+li > dt > span {
+	color:#777;
+	font-weight: 100;
+}
+
+.board-menu {
+  padding-right: 10px;
+}
+
+.btn-menuitem {
+    color: #222;
+    background-color: rgba(235, 235, 235, 0.7); 
+    border-color: rgba(235, 235, 235, 0.7); 
+    border: 1px rgba(235, 235, 235, 0.7); 
+}
+
+.bootstrap-select .dropdown-menu {
+  margin:0;
+}

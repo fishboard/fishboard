@@ -1,0 +1,25 @@
+<template name="boardmenu">
+{{#if currentBoard }}
+
+    <select id="boards" class="selectpicker" data-style="btn-menuitem"  title='Choose one of the following...'>
+        <optgroup label="Boards">
+        {{#each boards}}
+        	{{> boardmenuitem }}  
+        {{/each}}
+        </optgroup>
+
+        <optgroup label="Manage">
+          <option value="-1">Add New Board</option>
+        </optgroup>
+    </select>
+{{else}}
+<button type="button" class="btn btn-menuitem btn-add-board">
+  <span class="glyphicon glyphicon-plus"> </span>
+  Add New Board
+</button>
+{{/if}}    
+</template>
+
+<template name="boardmenuitem">
+	<option value="{{ _id }}">{{ text }}</option>
+</template>

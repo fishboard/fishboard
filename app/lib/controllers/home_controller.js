@@ -1,0 +1,3 @@
+HomeController = SecurePageController.extend({
+
+});

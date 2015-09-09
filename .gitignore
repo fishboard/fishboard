@@ -1,5 +1,6 @@
 .meteor/local
 .meteor/meteorite
+build/bundle
 
 **/.DS_Store
 .DS_Store
