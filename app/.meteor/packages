@@ -4,18 +4,5 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
-iron:router
-twbs:bootstrap
-ian:accounts-ui-bootstrap-3
-accounts-password
-fortawesome:fontawesome
-dburles:packery
-em0ney:chartjs
-planettraining:jquery-ui-drag-resize
-percolate:synced-cron
-peppelg:bootstrap-3-modal
-mrt:bootstrap-select
-joshowens:accounts-entry
-matteodem:gridster
-agnito:raphael
+fishboard:lib
+fishboard:sdk

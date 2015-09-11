@@ -33,6 +33,7 @@ Template.GridsterBoard.onRendered(function () {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
 	    var g = new JustGage({
 		    id: "gauge",
 		    value: getRandomInt(350, 980),
@@ -43,8 +44,17 @@ Template.GridsterBoard.onRendered(function () {
 	  	});
 
 
+		renderTimeout = Meteor.setInterval(function() {
+
+    		g.refresh(getRandomInt(350, 980));
+    		
+  		}, 2000);
+
+
 
 });
+
+
   
 });
 

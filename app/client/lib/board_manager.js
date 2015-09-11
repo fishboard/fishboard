@@ -1,7 +1,3 @@
-
-
-
-
 BoardManager = (function(){ 
 	self: this;
     // private methods 
