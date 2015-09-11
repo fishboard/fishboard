@@ -2,6 +2,13 @@
 /* GridsterBoard: Event Handlers */
 /*****************************************************************************/
 Template.GridsterBoard.events({
+	"click .widget-remove-button": function(e, t) {
+		console.log($(e.target));
+		console.log($(e.target).parent("li"));
+		
+		var gridster = $(".gridster ul").gridster().data('gridster');
+        gridster.remove_widget( $(e.target).parent("li") );
+	}
 });
 
 /*****************************************************************************/

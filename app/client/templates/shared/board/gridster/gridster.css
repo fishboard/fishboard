@@ -62,3 +62,9 @@
     height: auto;
 
 }
+
+.widget-remove-button {
+    top: 10px; 
+    right: 10px; 
+    position: absolute;
+}
