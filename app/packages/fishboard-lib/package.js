@@ -39,7 +39,10 @@ Package.onUse(function(api) {
 
   // JustGage Added Manually
   api.export('JustGage');  
-  api.addFiles('lib/justgage-1.1.0.js', ['client']);
+  api.addFiles(['lib/justgage-1.1.0.js', 
+    'lib/image-picker.js', 
+    'lib/image-picker.css'], 
+    ['client']);
 
 
 });

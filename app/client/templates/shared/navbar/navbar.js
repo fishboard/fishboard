@@ -6,8 +6,13 @@ Template.navbar.helpers({
 
 Template.navbar.events = {
   "click .btn-add-widget": function(e,t) {
-    // TODO
-    alert("TODO: Add New Widget");
+    var gridster = $(".gridster ul").gridster().data('gridster');
+
+    // Get the HTML content of the template passing data
+    var html = UI.toHTML(Template.gridsterWidget, { });
+
+    gridster.add_widget.apply(gridster, [html, 10, 10]);
+    //alert("TODO: Add New Widget");
   },
 
   "click .add-board-modal" : function(e,t) {

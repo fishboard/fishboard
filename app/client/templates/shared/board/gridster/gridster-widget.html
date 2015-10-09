@@ -1,0 +1,9 @@
+<template name="gridsterWidget">
+	<li data-row="{{row}}" data-col="{{col}}" data-sizex="{{x}}" data-sizey="{{y}}" data-chart="{{chart}}">
+        <button class="widget-remove-button">x</button>
+        <div class="widget-area">
+        	{{chart}}
+    		{{> Template.contentBlock}}
+        </div>
+    </li>
+</template>

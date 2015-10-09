@@ -27,9 +27,11 @@ Template.PackeryBoard.onRendered(function () {
 	    $container = $('.packery');
 
 		$container.packery({
+			
 		    itemSelector: '.item',
 		    columnWidth: 180,
-		    gutter: 10
+		    gutter: 10,
+		    
 		});
 
 		// get item elements, jQuery-ify them
@@ -82,6 +84,7 @@ Template.PackeryBoard.onRendered(function () {
 	      minWidth:180,
 	      minHeight:180,
 	      maxWidth:640,
+
 	      refreshPositions: true
 	    });
 

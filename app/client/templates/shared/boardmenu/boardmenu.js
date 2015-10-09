@@ -12,6 +12,8 @@ Template.boardmenu.helpers({
 
 Template.boardmenu.events({
     "click .btn-add-board": function(e,t) {
+      Modal.show("addBoardModal");
+      /*
     
     if (Boards.find().count() > 0) {
         console.log("currentBoard true");
@@ -24,8 +26,8 @@ Template.boardmenu.events({
 
     $('#boards').val(BoardManager.currentBoard());
     $('#boards').selectpicker("refresh"); 
-    
 
+    */
 
   },
 
@@ -34,7 +36,8 @@ Template.boardmenu.events({
     console.log(boardId);
 
     if (boardId == -1) {
-      alert("TODO: Add new board");
+      Modal.show("addBoardModal");
+      //alert("TODO: Add new board");
 
     	$('#boards').val(BoardManager.currentBoard());
     	$('#boards').selectpicker("refresh");	

@@ -1,0 +1,25 @@
+<template name="addBoardModal">
+<div class="modal fade">
+  <div class="modal-dialog" style="width:790px">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <input class="modal-title" type="text" placeholder="Modal title" style="border: none;  width:550px; outline: none; font-size:20px;" />
+        
+      </div>
+      <div class="modal-body">
+		<h4>Backgrounds</h4>
+      	<select class="background-images">
+        	{{#each backgrounds }}
+        		<option data-img-src="{{path}}" value="{{index}}">{{path}}</option>
+        	{{/each}}
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</template>
