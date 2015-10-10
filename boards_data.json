@@ -1,0 +1,155 @@
+boards:
+{
+	_id: "DtozgRqFPmrPfJ2pv",
+	title: "Main Board",
+	settings: {
+		background: "http://asd"
+	},
+	widgets: [  
+	  {  
+	    "id":"WT46ov4zvXDYwTWb4",
+	    "col":1,
+	    "row":1,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"M3x2XoPDrSsdac6Cq",
+	    "col":1,
+	    "row":11,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"5tcmRHDvDpGKWK2HE",
+	    "col":1,
+	    "row":21,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"XjpNsWhYmFpNxhN3J",
+	    "col":11,
+	    "row":1,
+	    "size_x":20,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"Pgsg7CAxn8gvNxbAM",
+	    "col":11,
+	    "row":11,
+	    "size_x":27,
+	    "size_y":20
+	  },
+	  {  
+	    "id":"shzfKYjq3tBkqB3HY",
+	    "col":31,
+	    "row":1,
+	    "size_x":17,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"Ny4KFLhixxoADdYym",
+	    "col":38,
+	    "row":11,
+	    "size_x":20,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"PiEp3tDKqmDtTwoHK",
+	    "col":38,
+	    "row":21,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"metCYTjhgFaNEtxM2",
+	    "col":48,
+	    "row":1,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"56hAJWCktDf9MXf7G",
+	    "col":31,
+	    "row":41,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"mwx9zyD6bkGvdvq9C",
+	    "col":48,
+	    "row":21,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"R3xTuNyLgCdiPwozM",
+	    "col":1,
+	    "row":31,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"xmdfzZ62MEhJWgX6R",
+	    "col":11,
+	    "row":41,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"N8DMJdizMkn7c9PCy",
+	    "col":11,
+	    "row":31,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"ZgorRcBDR4or6mc9y",
+	    "col":21,
+	    "row":31,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"w35SFezcCpbDNybDp",
+	    "col":31,
+	    "row":31,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"M5zHQcS9gBpyZwJ8N",
+	    "col":41,
+	    "row":31,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"bconh5baG78jyoZXZ",
+	    "col":1,
+	    "row":41,
+	    "size_x":10,
+	    "size_y":10
+	  },
+	  {  
+	    "id":"JDr3C4LrmG3Ar34Cs",
+	    "col":21,
+	    "row":41,
+	    "size_x":10,
+	    "size_y":10
+	  }
+	]
+
+}
+
+board_widgets:
+{
+	_id: "RYc6szWYemmTjFTXN"
+	widget_id: "JDr3C4LrmG3Ar34Cs",
+	board_id: "bconh5baG78jyoZXZ"
+}
+
+installed_widgets: {
+	
+}

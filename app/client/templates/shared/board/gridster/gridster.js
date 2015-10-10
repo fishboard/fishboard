@@ -36,15 +36,21 @@ Template.GridsterBoard.onRendered(function () {
 	$(function(){ //DOM Ready
 		$(".gridster").removeClass("hide");
 	    $(".gridster ul").gridster({
-	        widget_margins: [10, 10],
-	        widget_base_dimensions: [10, 10],
-   			helper: 'clone',
-   			autogrow_cols: true,
-   			auto_init: true,
 
-	        autogenerate_stylesheet: true,
+	        widget_margins: [10, 10],
+	        widget_base_dimensions:[320, 166],
+	        
+	        min_visible_cols:4,
+	        min_visible_rows:4,
+	        max_cols:2,
+   			helper: 'clone',
+   			//autogrow_cols: true,
+   			//auto_init: true,
+
+	        //autogenerate_stylesheet: true,
 	        resize: {
-	          enabled: true
+	          enabled: true,
+	          max_size: [3, 3]
 	        }   ,
 	        serialize_params: function($w, wgd) { 
 			    return { 

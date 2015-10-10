@@ -11,7 +11,7 @@ Template.navbar.events = {
     // Get the HTML content of the template passing data
     var html = UI.toHTML(Template.gridsterWidget, { });
 
-    gridster.add_widget.apply(gridster, [html, 10, 10]);
+    gridster.add_widget.apply(gridster, [html, 1, 1]);
     //alert("TODO: Add New Widget");
   },
 
