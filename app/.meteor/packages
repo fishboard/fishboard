@@ -4,6 +4,45 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-fishboard:lib
 fishboard:sdk
+standard-app-packages
+matteodem:gridster
+agnito:raphael
+iron:router
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
+accounts-password
+fortawesome:fontawesome
+dburles:packery
+em0ney:chartjs
+mrt:justgage-package
+planettraining:jquery-ui-drag-resize
+percolate:synced-cron
 peppelg:bootstrap-3-modal
+mrt:bootstrap-select
+aldeed:simple-schema
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+aldeed:collection2
+aldeed:autoform
+dburles:factory
+anti:fake
+lookback:body-class
+dburles:collection-helpers
+matb33:collection-hooks
+reywood:publish-composite
+useraccounts:bootstrap
+alanning:roles
+fishboard:accounts

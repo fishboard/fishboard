@@ -42,7 +42,7 @@ Template.GridsterBoard.onRendered(function () {
 	        
 	        min_visible_cols:4,
 	        min_visible_rows:4,
-	        max_cols:2,
+	       	max_cols:2,
    			helper: 'clone',
    			//autogrow_cols: true,
    			//auto_init: true,
@@ -50,7 +50,7 @@ Template.GridsterBoard.onRendered(function () {
 	        //autogenerate_stylesheet: true,
 	        resize: {
 	          enabled: true,
-	          max_size: [3, 3]
+	          max_size: [2, 3]
 	        }   ,
 	        serialize_params: function($w, wgd) { 
 			    return { 
@@ -66,9 +66,8 @@ Template.GridsterBoard.onRendered(function () {
 	    });
 
 	    function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
+		    return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
 
 	    var g = new JustGage({
 		    id: "gauge",

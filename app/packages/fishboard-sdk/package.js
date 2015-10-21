@@ -11,9 +11,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+  api.versionsFrom("METEOR@1.2.0.2");  
   api.export("Fishboard", ["client", "server"]);
 
-  api.versionsFrom('1.1.0.3');
   api.addFiles('sdk.js');
 });
 
